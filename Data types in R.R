@@ -15,7 +15,10 @@ class(vtr1)
 class(vtr3)
 vtr4=c("Hi",TRUE,2L,3.1, 3) # yields a character class
 class(vtr4)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 460eeaec41a5b82be8d04772aa284ccac831addf
 # Matrix Datatype, R data object that stores data in dimensions
 
 mtr=matrix(c(5:30))
@@ -39,6 +42,7 @@ list1
 myDataframe= data.frame(mtcars)    #mtcars is dataframe shipped with R studio package
 myDataframe
 
+<<<<<<< HEAD
 
 
 
@@ -57,3 +61,5 @@ myDataframe
 
 
 
+=======
+>>>>>>> 460eeaec41a5b82be8d04772aa284ccac831addf
