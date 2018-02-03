@@ -48,8 +48,19 @@ myFrame
 
 data.frame(airquality)
 
-# Operators: +,  -,  /,  %%,  %/%
+# OPERATORS: +,  -,  /,  %%,  %/%, ^      ==, !=,  <, >, >=, <=
+
 print(2+5)
+
+print(2^5)   # Exponential
+
+print(25 %/% 4) # Floor Division
+
+print(25 / 4)
+
+print(25 %% 4) # Modulo
+
+
 
 
 
