@@ -60,14 +60,55 @@ print(25 / 4)
 
 print(25 %% 4) # Modulo
 
+# CONDITIONAL STATEMENTS
+#NB white space is not ignored btr if else and {} sign below
 
+var1=10
+var2=2
+if ((var1+var2)>100){ 
+   print(" result is greater than 100")
+ }else if ((var1+var2)>20){
+  print("Result is greater than 20 ")
+ }else {print("Result is less than both")}
 
+# LOOP: repeat,  for,  while
 
+var1=5
+ repeat{
+   print(var1)
+   var1=var1+2
+   if(var1>21){
+     break()
+   }
+ }
 
+var2=5
+while(var2<21){
+  var2=var2+2
+  print(var2)
+}
 
+var3=array(1:10)
 
+var3
+for(i in var3){
+  print(i)
+}
 
+var3[3]
 
+list1= list("A","B","C","d",4,5,6,8)
+list1[3]
+list1[6]
+list1[12]=TRUE
+list1
+list1[12]
+list1[12]="TRUE"
+list1
+list1[11]= FALSE
+list1
+
+STRING
 
 
 
