@@ -108,7 +108,43 @@ list1
 list1[11]= FALSE
 list1
 
-STRING
+# STRING
+str1="Hi whats up?"
+str2="I am cool, thanks"
+
+str3= paste(str1,str2)
+str3
+nchar(str3)
+
+toupper(str3)
+tolower(str3)
+
+
+#House data analysis
+
+
+ library("dplyr", lib.loc="~/R/win-library/3.4")
+
+ houses %>% select(c(-1, -2)) ->houses
+ houses$waterfront<- factor(houses$waterfront, labels = c("Yes","No"))
+ houses$waterfront<- factor(houses$waterfront, labels = c("No","Yes"))
+ library("ggplot2", lib.loc="~/R/win-library/3.4")
+ ggplot(data = houses,aes(x=price))+ geom_histogram(bins = 40)
+ ggplot(data = houses,aes(x=price))+ geom_histogram(bins = 80)
+
+ ggplot(data = houses,aes(x=price))+ geom_histogram(bins = 8)
+ ggplot(data = houses,aes(x=price))+ geom_histogram(bins = 40)
+ ggplot(data = houses,aes(x=price))+ geom_histogram(bins = 40, fill="lightblue", col="blue")
+
+ x= 1:5
+ y=6:10
+ plot(x,y)
+ y=6:10
+ plot(x,y)
+ 
+
+
+
 
 
 
